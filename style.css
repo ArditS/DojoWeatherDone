@@ -1,0 +1,58 @@
+.display-flex{
+    display: flex;
+}
+
+nav{
+    background-color: #9FC5F8;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav p{
+    font-size: 30px;
+    color: white;
+}
+
+nav h2{
+    color: white;
+}
+
+main header{
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+}
+
+footer{
+    justify-content: space-around;
+}
+footer div{
+    background-color: #EEEEEE;
+    align-items: center;
+    padding: 20px;
+}
+
+footer div span{
+    color: blue;
+}
+
+.span-2{
+    color: red;
+}
+
+.cookies{
+    display: flex;
+    background-color: #EEEEEE;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    border: solid black 3px;
+}
+
+div button{
+    background-color: #9FC5F8;
+    padding: 10px;
+
+}
+

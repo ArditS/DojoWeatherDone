@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--nav bar of Dojo Weather-->
+    <nav class="display-flex">
+        <h2>Dojo Weather</h2>
+        <p onclick="alert('Loading weather report...')">Burbnk</p>
+        <p onclick="alert('Loading weather report...')">Chicago</p>
+        <p onclick="alert('Loading weather report...')">Dallas</p>
+    </nav>
+    <!--main content of Dojo Weather-->
+    <main>
+        <header class="display-flex">
+            
+                <h2>San Jose</h2>
+            <div>
+                <label for="temperature">show temperature in</label>
+                <select name="temperature" id="temperature">
+                    <option value="celsius">celsius</option>
+                    <option value="farenheit">farenheit</option>
+                </select>
+            </div>
+            
+        </header>
+            
+            <footer class="display-flex">
+                <div>
+                    <h2>Today</h2>
+                    <img src="./assets/some_rain.png" alt="some_rain img">
+                    <p>some rain</p>
+                    <div class="span">
+                    <span id="span-1">24 &#176;</span>
+                    <span class="span-2" id="span-2">18 &#176;</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>Tomorrow</h2>
+                    <img src="./assets/some_sun.png" alt="some_sun img">
+                    <p>some sun</p>
+                    <div class="span">
+                        <span id="span-3">27 &#176;</span>
+                        <span class="span-2" id="span-4"> 19 &#176;</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>Friday</h2>
+                    <img src="./assets/some_clouds.png" alt="some_clouds img">
+                    <p>some clouds</p>
+                    <div>
+                        <span id="span-5">21 &#176;</span>
+                        <span class="span-2" id="span-6">16 &#176;</span>
+                    </div>
+                </div>
+                <div>
+                    <h2>Saturday</h2>
+                    <img src="./assets/some_sun.png" alt="some_sun img">
+                    <p>some sun</p>
+                    <div class="span">
+                        <span id="span-7">26 &#176;</span>
+                        <span class="span-2" id="span-8">21 &#176;</span>
+    
+                </div>
+            </footer>
+
+        <div>
+
+        </div>
+    </main>
+
+    <div class="cookies" id="cookie">
+        <img src="./assets/cookie.png" alt="cookie img">
+        <div>
+            <h2>Stop! cookie time</h2>
+            <p>When use cookies (sadly not edible ones) to personalize content and ads to provide social media 
+                features and to analyse our traffic. <a href="">Read More.</a>
+            </p>
+        </div>
+        <button id="accept-button">I Accept</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
